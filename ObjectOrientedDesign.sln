@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedDesign", "ObjectOrientedDesign\ObjectOrientedDesign.csproj", "{61B1CDC5-CCBE-4B4E-A162-BA3967834380}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{78A80511-C10F-4E29-88F5-5CF855ED9F6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{ECB6101A-3A6E-4573-9F4A-93C7E458CBE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{A4CFF2A6-A797-4F76-9B06-14A017B58500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signleton", "Signleton\Signleton.csproj", "{9588B6C0-45B5-430F-9949-F170DE492A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +17,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61B1CDC5-CCBE-4B4E-A162-BA3967834380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61B1CDC5-CCBE-4B4E-A162-BA3967834380}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61B1CDC5-CCBE-4B4E-A162-BA3967834380}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61B1CDC5-CCBE-4B4E-A162-BA3967834380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9588B6C0-45B5-430F-9949-F170DE492A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9588B6C0-45B5-430F-9949-F170DE492A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9588B6C0-45B5-430F-9949-F170DE492A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9588B6C0-45B5-430F-9949-F170DE492A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9588B6C0-45B5-430F-9949-F170DE492A02} = {78A80511-C10F-4E29-88F5-5CF855ED9F6B}
 	EndGlobalSection
 EndGlobal
