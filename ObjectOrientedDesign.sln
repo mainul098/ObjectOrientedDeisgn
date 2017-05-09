@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Stru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signleton", "Signleton\Signleton.csproj", "{9588B6C0-45B5-430F-9949-F170DE492A02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,16 @@ Global
 		{9588B6C0-45B5-430F-9949-F170DE492A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9588B6C0-45B5-430F-9949-F170DE492A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9588B6C0-45B5-430F-9949-F170DE492A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9588B6C0-45B5-430F-9949-F170DE492A02} = {78A80511-C10F-4E29-88F5-5CF855ED9F6B}
+		{4F2B71DA-A47D-4E85-AC08-6EF4DB2AB7C1} = {78A80511-C10F-4E29-88F5-5CF855ED9F6B}
 	EndGlobalSection
 EndGlobal
