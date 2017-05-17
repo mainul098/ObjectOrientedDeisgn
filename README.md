@@ -25,7 +25,7 @@ First Five Object Oriented Design Principles to make the system **_maitaiable_**
 - Higher order module should not depend upon low level modules. Rather both depend upon abstractions.
 
 # Design Patterns
-##Be Careful
+## Be Careful
 - Design patterns are not a silver bullet to all your problems.
 - Do not try to force them; bad things are supposed to happen, if done so. Keep in mind that design patterns are solutions to problems, not solutions finding problems; so don't overthink.
 - If used in a correct place in a correct manner, they can prove to be a savior; or else they can result in a horrible mess of a code.
@@ -71,5 +71,7 @@ Wikipedia says
 ### Proxy
 ## Behavioural Patterns
 ### Strategy
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
 ### Observer
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 ### Command
