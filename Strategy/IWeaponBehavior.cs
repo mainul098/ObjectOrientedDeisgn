@@ -1,25 +1,25 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IBike.cs" company="">
-//   
+// <copyright file="IWeaponBehavior.cs" company="Mainul">
+//   2017
 // </copyright>
 // //  <summary>
-//   IBike.cs
+//   IWeaponBehavior.cs
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace AbstractFactory
+namespace Strategy
 {
     /// <summary>
-    ///     The 'AbstractProductA' interface
+    ///     The WeaponBehavior interface.
     /// </summary>
-    interface IBike
+    public interface IWeaponBehavior
     {
         /// <summary>
-        /// The name.
+        ///     The use weapon.
         /// </summary>
         /// <returns>
-        /// The <see cref="string"/>.
+        ///     The <see cref="string" />.
         /// </returns>
-        string Name();
+        string UseWeapon();
     }
 }

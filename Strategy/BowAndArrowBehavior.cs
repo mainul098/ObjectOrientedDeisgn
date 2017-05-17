@@ -1,25 +1,28 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IBike.cs" company="">
-//   
+// <copyright file="BowAndArrowBehavior.cs" company="Mainul">
+//   2017
 // </copyright>
 // //  <summary>
-//   IBike.cs
+//   BowAndArrowBehavior.cs
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace AbstractFactory
+namespace Strategy
 {
     /// <summary>
-    ///     The 'AbstractProductA' interface
+    ///     The bow and arrow behavior.
     /// </summary>
-    interface IBike
+    public class BowAndArrowBehavior : IWeaponBehavior
     {
         /// <summary>
-        /// The name.
+        ///     The use weapon.
         /// </summary>
         /// <returns>
-        /// The <see cref="string"/>.
+        ///     The <see cref="string" />.
         /// </returns>
-        string Name();
+        public string UseWeapon()
+        {
+            return "use bow and arrow";
+        }
     }
 }

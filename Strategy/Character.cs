@@ -1,25 +1,30 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IBike.cs" company="">
-//   
+// <copyright file="Character.cs" company="Mainul">
+//   2017
 // </copyright>
 // //  <summary>
-//   IBike.cs
+//   Character.cs
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace AbstractFactory
+namespace Strategy
 {
     /// <summary>
-    ///     The 'AbstractProductA' interface
+    ///     The character.
     /// </summary>
-    interface IBike
+    public abstract class Character
     {
         /// <summary>
-        /// The name.
+        ///     Gets or sets the weapon behavior.
+        /// </summary>
+        public IWeaponBehavior WeaponBehavior { get; set; }
+
+        /// <summary>
+        ///     The fight.
         /// </summary>
         /// <returns>
-        /// The <see cref="string"/>.
+        ///     The <see cref="string" />.
         /// </returns>
-        string Name();
+        public abstract string Fight();
     }
 }

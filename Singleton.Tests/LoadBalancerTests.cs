@@ -1,25 +1,29 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IBike.cs" company="">
+// <copyright file="LoadBalancerTests.cs" company="">
 //   
 // </copyright>
 // //  <summary>
-//   IBike.cs
+//   LoadBalancerTests.cs
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace AbstractFactory
+namespace Singleton.Tests
 {
+    using NUnit.Framework;
+
     /// <summary>
-    ///     The 'AbstractProductA' interface
+    /// The load balancer tests.
     /// </summary>
-    interface IBike
+    [TestFixture]
+    public class LoadBalancerTests
     {
         /// <summary>
-        /// The name.
+        /// The test method 1.
         /// </summary>
-        /// <returns>
-        /// The <see cref="string"/>.
-        /// </returns>
-        string Name();
+        [Test]
+        public void TestMethod1()
+        {
+            Assert.True(true);
+        }
     }
 }
