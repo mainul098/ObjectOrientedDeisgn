@@ -1,18 +1,25 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Class1.cs" company="">
-//   
+// <copyright file="IObserver.cs" company="Mainul">
+//   2017
 // </copyright>
 // <summary>
-//   Class1.cs
+//   The Observer interface.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace Observer
 {
     /// <summary>
-    ///     The class 1.
+    /// The Observer interface.
     /// </summary>
-    public class Class1
+    public interface IObserver
     {
+        /// <summary>
+        /// The update.
+        /// </summary>
+        /// <param name="weatherDto">
+        /// The weather Data.
+        /// </param>
+        void Update(WeatherDto weatherDto);
     }
 }
