@@ -70,6 +70,8 @@ The Decorator Pattern attaches additional responsibilities to an object dynamica
 ### Adaptar
 ### Bridge
 ### Composite
+Compose objects into tree structures to represent whole-part hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+"Directories contain entries, each of which could be a directory."
 ### Proxy
 ## Behavioural Patterns
 ### Strategy
